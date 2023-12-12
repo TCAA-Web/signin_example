@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styling/main.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="myForm" id="myForm">
+      <h2>User sign in</h2>
+      <form action="" id="loginForm">
+        <input
+          autocomplete="email"
+          type="email"
+          name="email"
+          placeholder="Email"
+        />
+        <input
+          autocomplete="new-password"
+          type="password"
+          name="password"
+          placeholder="Password"
+        />
+        <input type="submit" value="Login" />
+      </form>
+      <h3 id="loginMessage"></h3>
+      <button style="display: none" id="getDataButton">Get Data</button>
+    </div>
+    <div id="wrapper"></div>
+  </body>
+</html>
